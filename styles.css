@@ -1,0 +1,65 @@
+.tachado:hover, .sinTachar:hover{
+    border-color: #007BFF; /* Color del borde al pasar el mouse */
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Sombra suave */
+    background-color: #4D9D91;
+            color: white;
+            cursor: pointer;
+}
+.tachado:focus, .sinTachar:focus{
+    border-color: #007BFF; /* Color del borde al pasar el mouse */
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Sombra suave */
+}
+.tachado {
+    text-decoration: line-through;
+    font-size: 3em;
+    text-align: center;
+    width: 95%;
+    border-radius: 1em;
+    
+}
+.sinTachar{
+    text-decoration: none;
+    font-size: 3em;
+    text-align: center;
+    width: 95%;
+    border-radius: 1em;
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #4D9D91;
+    align-items: flex-start;
+    height: 100%;
+}
+.contenedorMain{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    background-color: #E0F1EF;
+    border-radius: 5%;
+    text-align: center;
+    max-height: 90%;
+}
+#todo-form{
+    height: 20%;
+}
+#todo-input{
+    width: 80%;
+    border: none;
+    outline: none;
+    height: 100%;
+    font-size: 4em;
+}
+h1{
+    font-size: 7em;
+}
+#todo-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;
+    max-height: 90%;
+}
