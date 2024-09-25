@@ -11,7 +11,7 @@
 }
 .tachado {
     text-decoration: line-through;
-    font-size: 3em;
+    font-size: 6vw;
     text-align: center;
     width: 95%;
     border-radius: 1em;
@@ -19,7 +19,7 @@
 }
 .sinTachar{
     text-decoration: none;
-    font-size: 3em;
+    font-size: 6vw;
     text-align: center;
     width: 95%;
     border-radius: 1em;
@@ -33,6 +33,7 @@ body{
     background-color: #4D9D91;
     align-items: flex-start;
     height: 100%;
+    font-size: 1em;
 }
 .contenedorMain{
     margin-top: 2em;
@@ -42,6 +43,7 @@ body{
     border-radius: 5%;
     text-align: center;
     max-height: 90%;
+    font-size: 1em;
 }
 #todo-form{
     height: 20%;
@@ -51,10 +53,11 @@ body{
     border: none;
     outline: none;
     height: 100%;
-    font-size: 4em;
+    font-size: 7vw;
 }
 h1{
-    font-size: 7em;
+    font-size: 7vw;
+    text-align: center;
 }
 #todo-list{
     display: flex;
